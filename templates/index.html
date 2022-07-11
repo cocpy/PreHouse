@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <img alt="" src="{% static 'images/back.png' %}" style="margin: 0 auto;" />
+    </div>
+
+    <div style="text-align: center;">
+        <a href="{% url 'house' %}"><img alt="" src="{% static 'images/02.png' %}" style="margin: 40px 83px;" /></a>
+        <a href="{% url 'amount' %}"><img alt="" src="{% static 'images/03.png' %}" style="margin: 40px 83px;" /></a>
+        <a href="{% url 'hot' %}"><img alt="" src="{% static 'images/01.png' %}" style="margin: 40px 83px;" /></a>
+        <a href="{% url 'reno' %}"><img alt="" src="{% static 'images/05.png' %}" style="margin: 40px 83px;" /></a>
+        <a href="{% url 'predict' %}"><img alt="" src="{% static 'images/04.png' %}" style="margin: 40px 83px;" /></a>
+    </div>
+</body>
+</html>
